@@ -19,6 +19,7 @@ const ConfigurationController = () => (
           <h1 className="control-title">Layout</h1>
           <div className="input-container">
             <input
+              id="content"
               className="checkbox"
               type="checkbox"
               onChange={onToggleShowContent}
@@ -30,23 +31,25 @@ const ConfigurationController = () => (
           </div>
           <div className="input-container">
             <input
+              id="leftNavbar"
               className="checkbox"
               type="checkbox"
               onChange={onToggleShowLeftNavbar}
               checked={showLeftNavbar}
             />
-            <label className="label" htmlFor="content">
+            <label className="label" htmlFor="leftNavbar">
               Left Navbar
             </label>
           </div>
           <div className="input-container">
             <input
+              id="rightNavbar"
               className="checkbox"
               type="checkbox"
               onChange={onToggleShowRightNavbar}
               checked={showRightNavbar}
             />
-            <label className="label" htmlFor="content">
+            <label className="label" htmlFor="rightNavbar">
               Right Navbar
             </label>
           </div>

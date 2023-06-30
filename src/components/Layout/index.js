@@ -13,7 +13,7 @@ const Layout = () => (
           <div className="layout-body">
             {showLeftNavbar && (
               <div className="left-navbar">
-                <p className="navbar-title">Left Navbar Menu</p>
+                <h1 className="navbar-title">Left Navbar Menu</h1>
                 <ul className="left-menu-list">
                   <li className="menu-list-item">Item 1</li>
                   <li className="menu-list-item">Item 2</li>
@@ -24,7 +24,7 @@ const Layout = () => (
             )}
             {showContent && (
               <div className="content">
-                <p className="navbar-title">Content</p>
+                <h1 className="navbar-title">Content</h1>
                 <p className="navbar-desc">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus semper euismod dapibus. Nam sit amet faucibus felis.
@@ -41,11 +41,11 @@ const Layout = () => (
             )}
             {showRightNavbar && (
               <div className="left-navbar">
-                <p className="navbar-title">Right Navbar Menu</p>
-                <ul className="left-menu-list ">
-                  <li className="menu-list-item box">Ad 1</li>
-                  <li className="menu-list-item box">Ad 2</li>
-                </ul>
+                <h1 className="navbar-title">Right Navbar Menu</h1>
+                <div className="left-menu-list ">
+                  <p className="menu-list-item box">Ad 1</p>
+                  <p className="menu-list-item box">Ad 2</p>
+                </div>
               </div>
             )}
           </div>
