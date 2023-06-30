@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.control-bg {
+  background-color: #475569;
+  color: white;
+  font-family: 'Roboto';
+  padding: 35px;
+}
+.control-title {
+  font-size: 36px;
+}
+.input-container {
+  margin-top: 15px;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+.label {
+  margin-left: 10px;
+  font-size: 24px;
+}
